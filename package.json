@@ -2,11 +2,13 @@
   "name": "new-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Edo77777.github.io/new-app/",
   "dependencies": {
     "@okta/okta-react": "^1.1.1",
     "@okta/okta-signin-widget": "^2.13.0",
     "axios": "^0.18.0",
     "cloudinary-react": "^1.0.6",
+    "gh-pages": "^2.0.1",
     "material-ui": "^0.20.2",
     "mdbreact": "^4.8.1",
     "react": "^16.4.0",
@@ -21,6 +23,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
