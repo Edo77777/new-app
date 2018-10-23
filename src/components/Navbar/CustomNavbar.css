@@ -1,0 +1,19 @@
+ .bg-dark{
+    background-color: #4a0126!important;
+ }
+ .navbar-nav{
+    float: right;
+    padding-right: 78px;
+    font-size: 17px;
+ }
+ .navbar-brand{
+    color: rgb(255, 255, 255);
+    font-family: unset;
+    font-size: 22px;
+    font-family: 'Cormorant Garamond', serif;
+ }
+ .nav-link{
+     color: aliceblue;
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 21px;
+ }
