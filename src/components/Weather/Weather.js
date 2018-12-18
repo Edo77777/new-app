@@ -58,7 +58,7 @@ export default class Weather extends Component {
         description={this.state.description}
         error={this.state.error}
         />
-        <style>{'body { background-image:url(https://images.pexels.com/photos/355810/pexels-photo-355810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) }'}</style>
+        <style>{'body { background-image:url(https://images.pexels.com/photos/156787/pexels-photo-156787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) }'}</style>
         </div>
     )
   }

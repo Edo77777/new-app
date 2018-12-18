@@ -10,7 +10,7 @@ class Navbar extends Component {
        className="navbar navbar-expand-sm   bg-dark mb-4">
         <div className="container">
           <Link  className="navbar-brand" to="/">
-            Home Page
+            Home 
           </Link> 
           <button
             className="navbar-toggler"
@@ -23,12 +23,12 @@ class Navbar extends Component {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link className="nav-link" to="/Weather">
-                  Weather
+                  Weather 
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/News">
-                  News
+                <Link className="nav-link" to="/SearchField">
+                  Countries
                 </Link>
                </li>
             </ul>

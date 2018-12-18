@@ -1,5 +1,5 @@
  .bg-dark{
-    background-color: #4a0126!important;
+    background-color: #484848!important;
  }
  .navbar-nav{
     float: right;
@@ -9,11 +9,19 @@
  .navbar-brand{
     color: rgb(255, 255, 255);
     font-family: unset;
-    font-size: 22px;
-    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+ }
+ .navbar-brand:hover{
+    transition: 0.3s;
+    color: rgb(161, 67, 87)
+ }
+ .nav-link:hover{
+   transition: 0.3s;
+   color: rgb(161, 67, 87)
  }
  .nav-link{
      color: aliceblue;
-     font-family: 'Cormorant Garamond', serif;
-     font-size: 21px;
+     font-family: 'Raleway', sans-serif;
+     font-size: 18px;
  }
